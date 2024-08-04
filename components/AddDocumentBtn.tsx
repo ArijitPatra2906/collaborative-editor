@@ -25,7 +25,7 @@ const AddDocumentBtn = ({ userId, email }: AddDocumentBtnProps) => {
       className="gradient-blue flex gap-1 shadow-md"
     >
       <Image src="/assets/icons/add.svg" alt="add" width={24} height={24} />
-      <p className="hidden sm:block">Start a blank document</p>
+      <p className="">Start a blank document</p>
     </Button>
   );
 };
