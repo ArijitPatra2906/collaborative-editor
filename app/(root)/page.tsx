@@ -31,7 +31,7 @@ const Home = async () => {
 
       {roomDocuments.data.length > 0 ? (
         <div className="document-list-container">
-          <div className="document-list-title">
+          <div className="document-list-title flex flex-wrap gap-3 justify-center md:justify-between items-center">
             <h3 className="text-28-semibold">All documents</h3>
             <AddDocumentBtn
               userId={clerkUser.id}
